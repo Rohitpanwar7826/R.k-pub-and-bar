@@ -17,12 +17,6 @@
             background-color: coral;
         }
         
-        #demo {
-            font-size: 2rem;
-            opacity: 0.5;
-            color: white;
-        }
-        
         .spinner-container {
             position: absolute;
             top: 0;
@@ -33,7 +27,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            transition: all 1s;
+            transition: all 0.7s;
             z-index: 300;
         }
         
@@ -48,7 +42,7 @@
             position: relative;
             opacity: 0;
             visibility: hidden;
-            animation: displayCircles 4s;
+            animation: displayCircles 2s;
         }
         
         @keyframes displayCircles {
@@ -78,8 +72,8 @@
         .circles div::after {
             content: "";
             position: absolute;
-            width: 0.7rem;
-            height: 0.7rem;
+            width: 0.5rem;
+            height: 0.5rem;
             border-radius: 50%;
             background-color: #c29525;
             margin: -0.4rem 0 0 -0.4rem;
@@ -266,10 +260,10 @@
         }
         
         .navbar.sticky {
-            padding: 2px;
             height: 7vh;
             padding-right: 20px;
             background: black;
+            opacity: 0.7;
         }
         
         .navbar .max-width {
@@ -513,7 +507,6 @@
             color: crimson;
             background: none;
         }
-        /* footer section styling */
         
         footer {
             background: #111;
