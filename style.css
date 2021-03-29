@@ -285,11 +285,11 @@
         }
         
         .navbar .logo a:hover {
-            color: blue;
+            color: red;
         }
         
         .navbar .logo a span:hover {
-            color: blue;
+            color: coral;
         }
         
         .navbar .logo a span {
@@ -298,7 +298,7 @@
         }
         
         .navbar.sticky .logo a span {
-            color: white;
+            color: coral;
         }
         
         .navbar .menu li {
