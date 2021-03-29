@@ -42,7 +42,7 @@
             position: relative;
             opacity: 0;
             visibility: hidden;
-            animation: displayCircles 2s;
+            animation: displayCircles 1s;
         }
         
         @keyframes displayCircles {
@@ -178,7 +178,6 @@
             color: red;
             opacity: 0.9;
         }
-        /* custom scroll bar */
         
          ::-webkit-scrollbar {
             width: 10px;
