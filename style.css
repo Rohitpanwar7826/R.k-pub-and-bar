@@ -8,18 +8,21 @@
             text-decoration: none;
             scroll-behavior: smooth;
         }
-        html{
+        
+        html {
             scroll-behavior: smooth;
         }
         
         body {
             background-color: coral;
         }
-        #demo{
-              font-size: 2rem;
-              opacity: 0.5;
-              color: white;
+        
+        #demo {
+            font-size: 2rem;
+            opacity: 0.5;
+            color: white;
         }
+        
         .spinner-container {
             position: absolute;
             top: 0;
@@ -537,7 +540,7 @@
         
         @media (max-width: 1104px) {
             .about .about-content .left img {
-                height: 350px;
+                height: 250px;
                 width: 350px;
             }
         }
