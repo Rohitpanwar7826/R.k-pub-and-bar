@@ -1,6 +1,3 @@
-let nm=prompt("Enter your name ");
-document.getElementById("demo").innerHTML=nm;
-
 window.onload = () => {
     setTimeout(() => {
         document.querySelector("body").classList.add("display");
