@@ -267,7 +267,7 @@
         
         .navbar.sticky {
             padding: 2px;
-            height: 8vh;
+            height: 7vh;
             padding-right: 20px;
             background: black;
         }
@@ -285,11 +285,11 @@
         }
         
         .navbar .logo a:hover {
-            color: red;
+            color: coral;
         }
         
         .navbar .logo a span:hover {
-            color: coral;
+            color: red;
         }
         
         .navbar .logo a span {
@@ -540,7 +540,7 @@
         
         @media (max-width: 1104px) {
             .about .about-content .left img {
-                height: 250px;
+                height: 350px;
                 width: 350px;
             }
         }
