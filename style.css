@@ -14,7 +14,7 @@
         }
         
         body {
-            background-color: coral;
+            background-color: coral !important;
         }
         
         .spinner-container {
@@ -503,6 +503,12 @@
             .about .about-content .left img {
                 height: 350px;
                 width: 350px;
+            }
+        }
+        
+        @media (max-width: 1010px) {
+            .text-4xl {
+                text-align: center;
             }
         }
         
