@@ -14,7 +14,7 @@
         }
         
         body {
-            background-color: coral !important;
+            scroll-behavior: smooth;
         }
         
         .spinner-container {
