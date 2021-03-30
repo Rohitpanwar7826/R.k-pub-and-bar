@@ -33,7 +33,7 @@
         }
         
         .display .spinner-container {
-            opacity: 0;
+            opacity: 1;
             visibility: hidden;
         }
         
