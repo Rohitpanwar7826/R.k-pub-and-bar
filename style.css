@@ -9,10 +9,6 @@
             scroll-behavior: smooth;
         }
         
-        html {
-            scroll-behavior: smooth;
-        }
-        
         body {
             scroll-behavior: smooth;
         }
@@ -33,7 +29,6 @@
         }
         
         .display .spinner-container {
-         
             visibility: hidden;
         }
         
@@ -174,7 +169,7 @@
             opacity: 0.9;
             font-family: 'Goldman', cursive;
         }
-       
+        
         section {
             padding: 100px 0;
         }
