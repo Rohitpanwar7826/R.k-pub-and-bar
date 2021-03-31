@@ -249,18 +249,18 @@ section .title::after {
 }
 
 .scroll-up-btn:hover {
-    filter: brightness(90%);
+    filter: brightness(95%);
 }
 
 .home {
     display: flex;
     background: url("images/7.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
     min-height: 500px;
-    background-size: cover;
+    background-size: 100% 100%;
+    color: white;
+    text-shadow: 0.7rem 0.7rem 0.9rem black;
     background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .sss {
