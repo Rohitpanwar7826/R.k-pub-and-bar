@@ -7,6 +7,7 @@
 }
 
 body {
+    font-family: 'Merriweather', serif;
     background-color: coral !important;
 }
 
@@ -284,7 +285,7 @@ section .title::after {
 
 .navbar-brand {
     font-size: 30px !important;
-    font-family: 'Droid Serif', serif !important;
+    font-family: 'Playfair Display', serif;
     margin-left: 2rem !important;
     color: white !important;
 }
@@ -363,11 +364,14 @@ nav ul li a:hover {
 .home .home-content .text-1 {
     font-size: 48px;
     cursor: default;
+    font-family: 'Playfair Display', serif;
 }
 
 .home .home-content .text-3 {
     font-size: 40px;
     margin: 10px 0;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
 }
 
 .home .home-content .text-3:hover {
