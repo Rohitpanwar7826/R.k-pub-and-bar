@@ -1,9 +1,3 @@
-window.onload = () => {
-    setTimeout(() => {
-        document.querySelector("body").classList.add("display");
-    },3000);
-};
-
 $(document).ready(function() {
     $(window).scroll(function() {
         if (this.scrollY > 20) {
