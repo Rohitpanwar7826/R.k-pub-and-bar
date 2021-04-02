@@ -1,3 +1,7 @@
+let date = new Date().toLocaleString()
+document.getElementById("demo").innerHTML = `Date & Time ${date}`;
+
+
 $(document).ready(function() {
     $(window).scroll(function() {
         if (this.scrollY > 20) {
