@@ -15,11 +15,11 @@ body {
     display: flex;
     background: url("images/7.jpg") no-repeat center;
     height: 100vh;
+    min-height: 500px;
     background-position: center center;
     background-color: #12b1a9;
     background-size: 100% 100%;
     color: white;
-    text-shadow: 0.7rem 0.7rem 0.9rem black;
     background-attachment: fixed;
 }
 
@@ -328,6 +328,12 @@ footer span a:hover {
 @media (max-width: 1300px) {
     .home .max-width {
         margin-left: 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    .home {
+        background-attachment: scroll;
     }
 }
 
