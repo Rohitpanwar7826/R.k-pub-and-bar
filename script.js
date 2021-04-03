@@ -1,5 +1,8 @@
-let date = new Date().toLocaleString()
-document.getElementById("demo").innerHTML = `Date & Time ${date}`;
+setInterval(() => {
+    let date = new Date().toLocaleString()
+    document.getElementById("demo").innerHTML = `Date & Time ${date}`;
+}, 1000);
+
 
 
 $(document).ready(function() {
