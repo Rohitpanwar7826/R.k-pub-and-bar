@@ -15,9 +15,7 @@ body {
     display: flex;
     background: url("images/7.jpg") no-repeat center;
     height: 100vh;
-    min-height: 500px;
     background-position: center center;
-    background-color: #12b1a9;
     background-size: 100% 100%;
     color: white;
     background-attachment: fixed;
