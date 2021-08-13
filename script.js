@@ -1,12 +1,21 @@
 setInterval(() => {
-    let date = new Date().toLocaleString()
-    document.getElementById("demo").innerHTML = `Date & Time ${date}`;
+    let dt = new Date().toLocaleString().split('/')
+    let date = dt[1];
+    let month = dt[0];
+    let year = dt[2];
+    if (date < 10) {
+        date = `0${date}`;
+    }
+    if (month < 10) {
+        month = `0${month}`;
+    }
+    document.getElementById("demo").innerHTML = `Date & Time ${date}/${month}/${year}`;
 }, 1000);
 
 
 
-$(document).ready(function() {
-    $(window).scroll(function() {
+$(document).ready(function () {
+    $(window).scroll(function () {
         if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
         } else {
@@ -19,15 +28,15 @@ $(document).ready(function() {
         }
     });
 
-    $('.scroll-up-btn').click(function() {
+    $('.scroll-up-btn').click(function () {
         $('html').animate({ scrollTop: 0 });
         $('html').css("scrollBehavior", "auto");
     });
 
-    $('.navbar .menu li a').click(function() {
+    $('.navbar .menu li a').click(function () {
         $('html').css("scrollBehavior", "smooth");
     });
-    $('.menu-btn').click(function() {
+    $('.menu-btn').click(function () {
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
